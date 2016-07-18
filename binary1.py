@@ -36,5 +36,6 @@ while low <= high:
 		# This effectively gets rid of all numbers before current mid + 1
 		low = mid + 1
 	else:
+		print("Mid: " + str(mid))
 		# Same as low but for the highest number
 		high = mid - 1
