@@ -53,7 +53,7 @@ while low <= high:
 		# Display the current middle number
 		print("Mid: " + str(mid))
 		# Set low to the current middle number + 1
-		# This effectively gets rid of all numbers before current mid + 1
+		# This gets rid of all the numbers before the current mid
 		low = mid + 1
 	else:
 		print("Mid: " + str(mid))
