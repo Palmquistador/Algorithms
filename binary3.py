@@ -14,16 +14,19 @@ numbers = []
 for i in range (1,1001):
 	numbers.append(i)
 
-def getRandomNumber():
+# Overkill but just for fun
+def getRandomNumber(theList):
 
 	# Pick a random number from the list to be our target
-	target = random.randint(1, 1000)
+	target = random.randint(theList[0], theList[-1])
 
-	print("\nThe random target is: " + str(target) + "!\n")
+	#Print the list range and target number
+	print("\nBetween " + str(theList[0]) + " and " + str(theList[-1]) + ", the random target is " + str(target) + "!\n")
 
 	return target
 
-target = getRandomNumber()
+# Get a random number between 1 and 1000
+target = getRandomNumber(numbers)
 
 # Set number of loops
 loops = 0
