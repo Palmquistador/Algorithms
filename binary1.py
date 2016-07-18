@@ -25,11 +25,11 @@ while low <= high:
 	# Calculate the middle number
 	mid = int(low + (high - low) / 2)
 	# If the middle number matches target, then success
-	if numbers.index(mid) == target:
+	if mid == target:
 		print("\nTarget " + str(target) + " found!")
 		break
 	# Otherwise, get rid of half of the numbers
-	elif numbers.index(mid) < target:
+	elif mid < target:
 		# Display the current middle number
 		print("Mid: " + str(mid))
 		# Set low to the current middle number + 1
