@@ -23,8 +23,8 @@ for i in range(0, len(numbers)):
 			# i.e., 9 now equals 5
 			numbers[j] = numbers[j + 1]
 
-			# The next index in the list now equals the old first value
-			# i.e., 9 now = 5 and 5 now = 9
+			# The next index in the list now equals the first value
+			# i.e., 5 now = 9
 			numbers[j + 1] = tmp
 
 print("\nSorted Numbers:\n" + str(numbers))
