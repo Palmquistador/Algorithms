@@ -32,10 +32,10 @@ target = getRandomNumber(numbers)
 loops = 0
 
 # Set starting number from the list
-low = 1
+low = numbers[0]
 
 # Set the highest number from the list
-high = len(numbers)
+high = numbers[-1]
 
 # Keep looping until target number is found
 while low <= high:
