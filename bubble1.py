@@ -18,7 +18,6 @@ for i in range(0, len(numbers)):
 
 			# Assign current index value to tmp, i.e. 9
 			tmp = numbers[j]
-			#print("\ntmp = " + str(tmp))
 
 			# Value of index j in list is now equal to the value of the next index
 			# i.e., 9 now equals 5
