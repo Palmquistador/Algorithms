@@ -39,11 +39,12 @@ high = numbers[-1]
 
 # Keep looping until target number is found
 while low <= high:
+	# Increase the loop count
+	loops += 1
 	# Calculate the middle number, int() rounds down
 	mid = int(low + (high - low) / 2)
 	# If the middle number matches target, then success
 	if mid == target:
-		loops += 1
 		print("\nTarget " + str(target) + " found!")
 		print("\nIt took " + str(loops) + " loops to find the answer!")
 		break
@@ -54,9 +55,7 @@ while low <= high:
 		# Set low to the current middle number + 1
 		# This effectively gets rid of all numbers before current mid + 1
 		low = mid + 1
-		loops += 1
 	else:
 		print("Mid: " + str(mid))
 		# Same as low but for the highest number
 		high = mid - 1
-		loops += 1
