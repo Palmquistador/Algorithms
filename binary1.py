@@ -14,7 +14,7 @@ target = 13
 # Set starting number from the list
 low = 1
 
-# Set the highest number fomr the list
+# Set the highest number from the list
 high = len(numbers)
 
 # Display the target number
