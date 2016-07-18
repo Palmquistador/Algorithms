@@ -1,7 +1,7 @@
 '''
 # Algorithm: 		Binary Search
-# Author: 			Caleb Palmquist (Palmquistador)
-# Date:				07/17/2016
+# Author: 		Caleb Palmquist (Palmquistador)
+# Date:			07/17/2016
 # Modified From:	https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
 '''
 
