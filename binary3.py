@@ -39,7 +39,7 @@ high = numbers[-1]
 
 # Keep looping until target number is found
 while low <= high:
-	# Calculate the middle number
+	# Calculate the middle number, int() rounds down
 	mid = int(low + (high - low) / 2)
 	# If the middle number matches target, then success
 	if mid == target:
