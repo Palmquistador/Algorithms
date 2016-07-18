@@ -1,7 +1,7 @@
 '''
 # Algorithm: 		Bubble Sort (Simple)
-# Author: 			Caleb Palmquist (Palmquistador)
-# Date:				07/18/2016
+# Author: 		Caleb Palmquist (Palmquistador)
+# Date:			07/18/2016
 # Modified From:	https://www.topcoder.com/community/data-science/data-science-tutorials/sorting/
 '''
 
